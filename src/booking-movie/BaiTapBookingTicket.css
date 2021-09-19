@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "fontGame";
+  src: url("../font/Pony.ttf");
+}
+
+.bookingMovie {
+  font-family: "fontGame";
+}
+
+.ghe {
+  border: 3px solid orange;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.rowNumber {
+  /* font-size: 25px; */
+  width: 45px;
+  height: 35px;
+  background: none;
+  border: none;
+  margin-left: 1%;
+  margin-right: 30px;
+  margin-bottom: 1%;
+  font-size: 30px;
+  color: yellow;
+}
+.firstChar {
+  color: yellow;
+  font-size: 32px;
+  margin-right: 30px;
+}
+
+.screen {
+  border-bottom: 50px solid rgb(255, 159, 95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 100;
+  width: 80%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+  font-size: 25px;
+  color: #fff;
+}
+
+.gheDuocChon {
+  border: 3px solid orange;
+
+  background: orange;
+  color: #000;
+
+  cursor: no-drop !important;
+  border-radius: 5px;
+  width: 45px;
+  height: 35px;
+}
+
+.gheDangChon {
+  background: rgb(109, 238, 109);
+  border: 3px solid rgb(109, 238, 109);
+  color: #000;
+
+  cursor: pointer;
+  border-radius: 5px;
+  width: 45px;
+  height: 35px;
+}
+.background {
+  background-image: url(./bgmovie.jpg);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.808);
+  width: 100%;
+  height: 100%;
+}
